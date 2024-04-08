@@ -1,0 +1,2 @@
+##COMMANDO PARA DOCKER
+docker run --name=postgres_task -e POSTGRES_USER=lorenzo_luis -e POSTGRES_PASSWORD=password -e POSTGRES_DB=lr_luis_db -p 5432:5432 -d postgres
